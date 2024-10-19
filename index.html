@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+    <title>Happy Birthday</title>
+    <link rel="icon" href="icons/tab-icon.png"/>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</head>
+<body style="font-family: 'Comic Neue';" class="relative">
+
+    <!-- MUSIC PLAYER -->
+    <div class="fixed left-6 bottom-6 z-10">
+        <div class="music-container relative bg-neutral-100 py-3 px-3 border-2 z-10 rounded-md border-black flex items-center">
+            <div class="toggle-player bg-neutral-100 border-2 border-black">
+                <img class="w-full" src="icons/close.svg" alt="">
+            </div>
+            <div class="avatar absolute w-14">
+                <img class="w-full border-2 bg-white border-black rounded-md" src="icons/pinkheart.svg" alt="">
+            </div>
+            <div class="player">
+                <div class="sound-bars-lottie">
+                    <div class="sound-bars"></div>
+                </div>
+                <div class="track-info -space-y-1">
+                    <div class="trackname">Only</div>
+                    <div class="trackartist">Track Artist</div>
+                </div>
+                <div class="track-nav">
+                    <div class="prev-track">
+                        <img class="w-7" src="icons/backplayer.svg" alt="">
+                    </div>
+                    <div class="playpause-track">
+                        <img class="w-8" src="icons/play.svg" alt="">
+                    </div>
+                    <div class="next-track">
+                        <img class="w-7" style="transform: rotate(180deg);" src="icons/backplayer.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="one">
+            <img src="img/back.png" alt="">
+            <div class="container">
+                <div class="envelope-wrapper">
+                    <div class="envelope">
+                        <div class="letter">
+                            <div class="text">
+                                <strong style="font-size: .89rem;">HAPPY BIRTHDAY JAYANI!!🥳🥳</strong>
+                                <p style="text-indent: 15px;">
+                                    It took you long enough but you are finally 17😤😤and I hope you are doing great.Enjoy your special day, and don't forget to treat yourself, You deserve it! This is a small Birthday Card For You (Scroll down)
+                                <div class="pana">
+                                    <img src="icons/cake.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIRST CARD -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/back.jpg" alt="">
+        <!-- FIRST PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- FIRST CARD -->
+            <div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-black">
+                 <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60">
+                    <img class="w-full -rotate-12" src="https://media.tenor.com/ARUGVDQjK0IAAAAi/tkthao219-bubududu.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-60">
+                    <img class="w-full rotate-12" src="https://media.tenor.com/tD4y6qotBCMAAAAi/fat-cat-gift-for-you.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-60">
+                    <img class="w-full rotate-3" src="https://media.tenor.com/EC7xiN7mrhEAAAAi/birthday-birthday-party.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-30 -right-60">
+                    <img class="w-full rotate-3" src="https://gifdb.com/images/high/hatsune-miku-happy-birthday-xa3kasez005ghjih.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-30 -left-60">
+                    <img class="w-full rotate-3" src="https://gifdb.com/images/high/cute-happy-birthday-welsh-corgi-sticker-yeah-76egw2e4qk30od6z.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-60">
+                    <img class="w-full -rotate-12" src="https://media.tenor.com/l2QU5JIn6q0AAAAi/happy-birthday.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-black">
+                    <div>
+                        <img class="w-5" src="icons/back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">Move Your Curser Here</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="icons/x.svg">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-black">
+                    <div class="absolute bottom-2 left-12 w-14">
+                        <img class="rotate-12 w-full" src="icons/cat1.svg" alt="">
+                    </div>
+                    <div class="absolute top-3 right-3 w-12">
+                        <img class="rotate-12 w-full" src="icons/dog.svg" alt="">
+                    </div>
+                    <div class="absolute bottom-2 right-14 w-11">
+                        <img class="-rotate-12 w-full" src="icons/jelly.svg" alt="">
+                    </div>
+                    <div class="absolute top-3 left-3 w-10">
+                        <img class="-rotate-12 w-full" src="icons/pizza.svg" alt="">
+                    </div>
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">BIRTHDAY GIRL!!</h1>
+                        <p class="text-base">Pretty Smile ⸜(｡˃ ᵕ ˂ )⸝ </p>
+                    </div>
+                    
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="img/1.jpeg" alt="">
+                        <img class="w-40" src="img/2.jpeg" alt="">
+                        <img class="w-40" src="img/3.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <!-- FOURTH -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/back.jpg" alt="">
+        <div class="absolute top-0 w-full h-full flex justify-center items-center">
+            <!-- COUNTER -->
+            <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-black flex-col px-5 pb-3 shadow-md pt-9 rounded-md">
+                <!-- GIFS -->
+                <div class="absolute top-1 right-1 w-7">
+                    <img class="w-full" src="icons/heart.svg" alt="">
+                </div>
+                <div class="absolute -top-20 -left-56 w-44">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/YEyladI4_aYAAAAi/chibi-cat-mochi-cat.gif" alt="">
+                </div>
+                <div class="absolute -bottom-3 -right-52 w-44">
+                    <img class="w-full" src="https://media.tenor.com/oGpz_hpmmTQAAAAi/cute.gif" alt="">
+                </div>
+                <div class="absolute top-[-8rem] z-0 right-28 w-36">
+                    <img class="w-full" src="https://media.tenor.com/hVRhFeDFW6oAAAAi/anime-wave.gif" alt="">
+                </div>
+                <div class="absolute -bottom-48 z-0 left-16 w-40">
+                    <img class="w-full" src="https://media.tenor.com/sAjbIdSHL_EAAAAi/cute-cat.gif" alt="">
+                </div>
+
+               
+                <div class="flex gap-5 justify-center items-center" id="myCountdown">
+                    <div class="bg-transparent border-2 border-black rounded-md w-64 h-64 flex justify-center items-center flex-col">
+                        <img class="w-full h-full object-contain" src="img/Flowers.png" alt="Cute Cat">
+                    </div>
+                </div>
+                <h1 class="text-center font-bold text-base">ENJOY YOUR 17TH BIRTHDAY<br>Fun Fact search "happy birthday Jayani" in youtube ,you have your own song.<br>Also the pictures are cropped ones I deleted them so don't worry<br>Final Byeee (˶◜ᵕ◝˶)</h1>
+            </div>
+
+
+        </div>
+        
+    </div>
+    
+    
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+            envelope.classList.toggle('open');
+        });
+    </script>
+    
+    <script src="app.js"></script> 
+</body>
+</html>
+
